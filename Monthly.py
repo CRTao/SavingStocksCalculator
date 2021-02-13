@@ -24,7 +24,7 @@ def Phrase_ETF_Components():
         print("Failed to get list from twse website.")
 
 def Get_Historical_Stock():
-    URL = "https://www.twse.com.tw/zh/page/trading/exchange/FMSRFK.html"
+    URL = "https://www.twse.com.tw/exchangeReport/FMSRFK?response=json&date=20200101&stockNo=2330"
     page = requests.get(URL)
     
 
